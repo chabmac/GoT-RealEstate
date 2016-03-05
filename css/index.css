@@ -4,8 +4,8 @@
 /* nav bar */
 
 nav {
-  padding-top: 37px;
-  height: 38px;
+  padding-top: 30px;
+  height: 35px;
   width: 100%;
   position: fixed;
   z-index: 10;
@@ -18,79 +18,58 @@ ul {
 
 ul li {
   float: left;
-/*  display: inline-block;*/
- /* margin-right: 30px;*/
 }
 
 ul li a {
   display: block;
-  background-color: red;
-  color: gray;
+  background-color: black;
+  color: #ca8f42;
   text-transform: uppercase;
   text-decoration: none;
   font-family: Verdana, Geneva, sans-serif;
-  padding: 11.5px;
+  padding: 5.5px;
   text-align: center;
   font-size: 0.938em;
-  width: 75px;
+  letter-spacing: 3px;
+  width: 125px;
 }
 
 ul li a:hover {
-  color: red;
+  color: black;
+  background-color: #cc0c2f;
 /*  opacity: .5;*/
-}
-
-
-.nav-left {
-  float: right;
-  width: 50%;
-  text-align: right;
-  margin-right: 5%;
-}
-
-/*.nav-left {
-  float: left;
-  width: 50%;
-  text-align: left;
-}*/
-
-/*.nav-right {
-  float: right;
-  width: 30%;
-  text-align: right;
-  margin-right: 5%;
-}*/
-
-
-
-/*.nav-left {
-  position: absolute;
-  width: 100%;
-  top: 0;
-  left: 0;
-  padding: 2rem;
-  float: left;
 }
 
 .nav-right {
   float: right;
-  margin-right: 7%;
+/*  width: 50%;*/
+  text-align: right;
+  margin-top: 8px;
+  margin-right: 0px;
 }
 
-span a {
-  color: white;
-  text-transform: uppercase;
-  text-decoration: none;
+.nav-line {
+  margin-top: 34px;
+  height: 3px;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+  background-color: #cc0c2f;
+}
+
+.logo {
+  margin-top: -40px;
+  margin-left: 45px;
+  height: 115px;
+  width: 100px;
+  position: fixed;
+  background-color: blue;
+}
+
+p {
   font-family: Verdana, Geneva, sans-serif;
-  opacity: .5;
-  font-size: 0.938em;
-  margin: 10px;
+  color: #ca8f42;
 }
-
-span a:hover {
-  color: black;
-  opacity: .5;
-}*/
 
 /*--------------------------------------*/
 
@@ -111,14 +90,25 @@ body {
 
 /*--------------------------------------*/
 
+/* main content */
+
+#content-wrapper {
+  width: 700px;
+  margin: 0 auto;
+  padding: 15px;
+  background-color: black;
+}
+
+/*--------------------------------------*/
+
 /* misc styles */
 
-/*.spacer {
+.spacer {
   width: 100%;
   height: 50px;
 }
 
-@media screen and (max-width:680px){
+/*@media screen and (max-width:680px){
 .nav {font-size: 0.8rem}
 }
 
