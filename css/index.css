@@ -37,12 +37,10 @@ ul li a {
 ul li a:hover {
   color: black;
   background-color: #cc0c2f;
-/*  opacity: .5;*/
 }
 
 .nav-right {
   float: right;
-/*  width: 50%;*/
   text-align: right;
   margin-top: 8px;
   margin-right: 0px;
@@ -69,6 +67,7 @@ ul li a:hover {
 p {
   font-family: Verdana, Geneva, sans-serif;
   color: #ca8f42;
+  letter-spacing: 1px;
 }
 
 /*--------------------------------------*/
@@ -82,12 +81,6 @@ p {
 
 img {width:100%}
 
-body {
-  /*padding: 10px 50px 200px;*/
-  background-color: black;
-  background-size: 100%
-}
-
 /*--------------------------------------*/
 
 /* main content */
@@ -95,9 +88,65 @@ body {
 #content-wrapper {
   width: 700px;
   margin: 0 auto;
-  padding: 15px;
+  padding: 50px;
+  margin-top: -3px;
+  /*background-color: black;*/
+  /*opacity: .5;*/
+
+}
+
+h1 {
+  color: #ca8f42;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  font-family: Georgia, serif;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+/*--------------------------------------*/
+
+/* background image */
+
+body {
+  background-image: url("../images/Index_Images/background-image.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+}
+
+/*--------------------------------------*/
+
+/* footer */
+
+#footer {
+  display: block;
+  padding-top: 50px;
+  height: 100px;
+  text-align: center;
   background-color: black;
 }
+
+.footer-links {
+  display: inline-block;
+  padding: 30px;
+  margin-top: -40px;
+}
+
+a {
+  color: #cc0c2f;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+a:hover {
+  color: #ca8f42;
+}
+
 
 /*--------------------------------------*/
 
