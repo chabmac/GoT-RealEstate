@@ -56,12 +56,11 @@ ul li a:hover {
 }
 
 .logo {
-  margin-top: -40px;
+  margin-top: -30px;
   margin-left: 45px;
   height: 115px;
   width: 100px;
   position: fixed;
-  background-color: blue;
   z-index: 20;  
 }
 
@@ -182,6 +181,10 @@ a:hover {
 /*--------------------------------------*/
 
 /* misc styles */
+
+
+
+
 
 .spacer {
   width: 100%;
