@@ -173,6 +173,10 @@ h1 {
   letter-spacing: 10px;
 }
 
+h1:hover {
+  color: red;
+}
+
 /*--------------------------------------*/
 
 /* background image */
