@@ -147,10 +147,11 @@ input[type="submit"]:hover{
 
 }*/
 
-#content-wrapper2 {
-  width: 540px;
+#content-wrapper {
+  width: 700px;
+  margin: 0 auto;
+  padding: 50px;
   margin-top: -3px;
-  float: left;
   /*background-color: black;*/
   /*opacity: .5;*/
 
@@ -176,14 +177,14 @@ h2 {
   letter-spacing: 10px;
 }
 
-p {
+/*p {
   width: 45%;
   text-align: center;
   font-family: Verdana, Geneva, sans-serif;
   color: #ca8f42;
   letter-spacing: 1px;
   float: right;
-}
+}*/
 
 .photos {
 	float: left;
@@ -220,7 +221,7 @@ p {
 /* background image */
 
 body {
-  background-image: url("../images/Index_Images/background-image.png")
+  background-image: url("../images/Meereen_Images/backgroundImg.png");
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
